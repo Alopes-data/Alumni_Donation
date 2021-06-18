@@ -15,19 +15,12 @@ Simple descriptive statistics and visualizations were used to examine the freque
 The “Alumni_Dataset” provided contained 48 observations with 6 variables. The two categorical variables were the University names one for each observation, and the State where the University exists containing 24 unique values shown in Figure 1.
 
 ##### Figure 1
-Number of Universities within each State of the dataset
- 
-State abbreviations used. Only includes the states within the Dataset.
+
+![image](https://user-images.githubusercontent.com/58121111/122608582-77bd8b00-d04a-11eb-8ef1-7db04d8cc891.png)
 
 ##### Table 1
-Median, mean, quartiles and standard deviation (DV) of numerical variables
-Predictor	Min	1st	Median	Mean	3rd	Max	SD
-Graduation Rate	66.00	75.75	83.50	83.04	91.00	97.00	8.60
-% of Classes Under 20	29.00	44.75	59.50	55.73	66.25	77.00	13.19
-Student-Faculty Ratio	3.00	8.00	10.50	11.54	13.50	23.00	4.85
-Alumni Giving Rate	7.00	18.75	29.00	29.27	38.50	67.00	13.44
-Notes: n = 48, with 6 observations. Distribution and Frequency tables can be found in the appendix as figure 2-9.
 
+![image](https://user-images.githubusercontent.com/58121111/122608628-8c018800-d04a-11eb-95e2-12926d13961d.png)
 
 #### Results
 Running a simple linear regression model we can (F(1,46) = 61.34, p<0 with a r squared of 0.57.  Predicted alumni donation rate is equal to -68.76 + 1.18 (graduation rate) percent when graduation rate is measured in percentage. Alumni donation rate increased 1.18 for each percentage in graduation rate shown below in Table 2. 
@@ -36,49 +29,27 @@ Running a simple linear regression model we can (F(1,46) = 61.34, p<0 with a r s
 
 
 ##### Table 2
-Simple Linear Regression model results using “Alumni Giving Rate”
-	Estimate	R-Squared	F	Significance
-Graduation Rate	1.18	0.57	61.34	<0.001
-See Appendix for full table. Visualization available in Figure 10 with model fit available in appendix as Figure 11.
 
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/58121111/122608674-9facee80-d04a-11eb-94ac-ded2f3e9b635.png)
 
 
 ##### Figure 10
-Scatterplot showing relationship with Graduation Rate and Alumni Giving Rate
- 
-Linear regression line added.
 
-
-
-
+![image](https://user-images.githubusercontent.com/58121111/122608728-bbb09000-d04a-11eb-9ea9-903ffbfdd50f.png)
 
 
 ##### Figure 12
-Correlation matrix comparing numerical variables.
- 
+
+![image](https://user-images.githubusercontent.com/58121111/122608766-ce2ac980-d04a-11eb-9f03-ea515687cacc.png)
 
 
 
 A Multiple linear regression model was calculated to predict a universities’ Alumni donation rate based on their Graduation Rate, Percent of Classes Under 20, and Student/Faculty ratio.  A significant regression equation was found (F(1,44) = 83.8, 9.34, 9.5, P < 0, 1, 0.001) with a multiple R squared of  0.7.
 
 ##### Table 3. 
-Multiple Linear Regression model results using “Alumni Giving Rate”
-Predictor	Estimate	Significance	R-Squared	F
-(Intercept)	-20.72		.7	34.21
-Graduation Rate	0.75	<0.001		
-% of Classes Under 20	0.03	1		
-Student- Faculty Ratio	-1.19	0.001		
-See Appendix B for full table. Model fit visualizations in Appendix Figure 13
+
+![image](https://user-images.githubusercontent.com/58121111/122608807-dedb3f80-d04a-11eb-8485-b4a8e0e0f74a.png)
+
 
 Participants predicted Alumni Donation is equal to -20.72 -1.19(student-faculty ratio) + 0.03(Percent of classes Under 20) + 0.75 (Graduation rate) where Student/Faculty is measured as a numeric for the number of student to the faculty member, Percent of classes Under 20 is a numerical percentage value, and graduation rate as a numerical integer representing the percentage value. 
 
@@ -86,18 +57,13 @@ The Alumni donation rate increased 0.75 percent for each percentage of Graduatio
 
 
 ##### Figure 14
-Student to Faculty ratio compared to the Alumni giving rate
- 
-Linear regression line added in blue.
 
-
-
+![image](https://user-images.githubusercontent.com/58121111/122608855-f31f3c80-d04a-11eb-99e2-69e19dbdb92d.png)
 
 
 ##### Figure 15
-Student Faculty Ratio compared with the Graduation rate.
- 
-Linear regression line added in blue.
+
+![image](https://user-images.githubusercontent.com/58121111/122608908-0e8a4780-d04b-11eb-96ca-ddf15a682a4c.png)
 
 #### Discussion
 From the results of the Multiple Linear Regression Model and the Correlation Matrix I believe the Student/Faculty would be the best way to increase Alumni Donations. With a better Student/Faculty ratio, with better being less student to each faculty member, to help students receive the help they needed in order to graduate but also lead to better experiences (Benavides et al., 2010).
@@ -116,73 +82,49 @@ Ingraham, K. C., Davidson, S. J., & Yonge, O. (2018). Student-faculty relationsh
 ### Appendix
 
 ##### Figure 2
-Boxplot showing the Interquartile range and mean of the Graduation Rate
- 
 
+![image](https://user-images.githubusercontent.com/58121111/122608935-219d1780-d04b-11eb-85fb-968acd20d0e2.png)
+ 
 
 ##### Figure 3
  
-
-
-
+![image](https://user-images.githubusercontent.com/58121111/122608980-32e62400-d04b-11eb-827a-cf661f1ac99a.png)
 
 
 ##### Figure 4
-Boxplot showing the Interquartile range and mean of the Percent of classes under 20.
- 
 
-
+![image](https://user-images.githubusercontent.com/58121111/122609099-6a54d080-d04b-11eb-9534-5fc247a16cf8.png)
 
 
 ##### Figure 5
 
- 
-Notes
-
-
-
+![image](https://user-images.githubusercontent.com/58121111/122609160-8e181680-d04b-11eb-8f05-572968e27d55.png)
 
 
 ##### Figure 6
-Boxplot showing the Interquartile range and mean of the Student-Faculty Ratio
- 
-Showing the number of students to one faculty member.
+
+![image](https://user-images.githubusercontent.com/58121111/122609216-a2f4aa00-d04b-11eb-83f5-79141fa249c3.png)
 
 
 ##### Figure 7
  
-
-
-
+![image](https://user-images.githubusercontent.com/58121111/122609257-b4d64d00-d04b-11eb-9c5c-a3f98129bf22.png)
 
 
 ##### Figure 8
-Interquartile range of the Alumni Giving rate
+
+![image](https://user-images.githubusercontent.com/58121111/122609459-04b51400-d04c-11eb-85d8-81d7d1464b1a.png)
  
-
-
-
 
 ##### Figure 9
-Distribution Histogram of the Alumni Giving Rate
- 
 
-
-
-
+![image](https://user-images.githubusercontent.com/58121111/122609507-18f91100-d04c-11eb-8d73-6b8b2ae8baf6.png) 
 
 
 ##### Figure 11
-Fit of our Linear Regression Model with Alumni Giving as our dependent variable
- 	 
- 	 
-Alumni Giving rate was the dependent variable with Graduation rate being our independent variable.
 
+![image](https://user-images.githubusercontent.com/58121111/122609582-3a59fd00-d04c-11eb-8b75-f3130839d422.png)
 
 
 ##### Figure 13
-Multiple Linear Regression model results using “Alumni Giving Rate” as dependent variable
- 	 
- 	 
-Closest to a straight line or 0 dotted line = fit.
-Graduation Rate, Student Faculty Ratio, and % of classes under 20 were the independent variables. 
+![image](https://user-images.githubusercontent.com/58121111/122609641-55c50800-d04c-11eb-8aa7-f709c5df32fb.png)
