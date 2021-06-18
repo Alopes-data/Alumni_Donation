@@ -9,7 +9,7 @@
 The main programming language used was R Studio libraries with Readxl ,Dplyr, Magritter, Ggplot2, and Corrplot used as supplementary packages.  Readxl was used to read in the “Alumni_Dataset” contained in an Microsoft Excel file.  Dplyr and Magritter provide syntax and simple data manipulation for organizing our data to prepare it for visualization and models.  Ggplot2 was the main package we used for data visualizations within R in tandem with the Corrplot package used for calculating and representing our correlation matrix.
 
 ##### Design
-	Simple descriptive statistics and visualizations were used to examine the frequency and distribution of the dataset. For algorithms we used a linear regression model on Alumni Giving Rate and the Graduation Rate to gain insight into the correlation before running a Multiple Linear Regression model with Alumni Giving Rate as our dependent variable and Graduation rate, Student-Faculty Ratio, and the Percent of Classes Under 20 as our independent variables.
+Simple descriptive statistics and visualizations were used to examine the frequency and distribution of the dataset. For algorithms we used a linear regression model on Alumni Giving Rate and the Graduation Rate to gain insight into the correlation before running a Multiple Linear Regression model with Alumni Giving Rate as our dependent variable and Graduation rate, Student-Faculty Ratio, and the Percent of Classes Under 20 as our independent variables.
 
 ##### Participants
 The “Alumni_Dataset” provided contained 48 observations with 6 variables. The two categorical variables were the University names one for each observation, and the State where the University exists containing 24 unique values shown in Figure 1.
