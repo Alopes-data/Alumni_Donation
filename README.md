@@ -65,14 +65,16 @@ The Alumni donation rate increased 0.75 percent for each percentage of Graduatio
 
 ![image](https://user-images.githubusercontent.com/58121111/122608908-0e8a4780-d04b-11eb-96ca-ddf15a682a4c.png)
 
-#### Discussion
+### Discussion
 From the results of the Multiple Linear Regression Model and the Correlation Matrix I believe the Student/Faculty would be the best way to increase Alumni Donations. With a better Student/Faculty ratio, with better being less student to each faculty member, to help students receive the help they needed in order to graduate but also lead to better experiences (Benavides et al., 2010).
 
 There were a few outliers specifically entries 21. Pennsylvania University, 33. University of Chicago,  37. University of North Carolina-Chapel Hill, and 10. Cornell university. University of Chicago is the most interesting of the group as it has one of the smallest Student-Faculty ratio but its alumni donation rate is just below the third quartile. University of Florida is also an outlier but in reference to its Student to faculty ratio being considerably higher than the other universities easily seen on the Student-Faculty Ratio Boxplot.
  
-#### References
+### References
 Benavides, S., Garcia, A. S., Caballero, J., & Wolowich, W. R. (2010). The Impact of Student-Faculty Ratio on Pharmacy Faculty Scholarship. American Journal of Pharmaceutical Education, 74(8), 138. https://doi.org/10.5688/aj7408138
+
 Everly, M., Berlin, K., Weber, P., Peterson, Y., & Nelson, J. (2018). When Faculty Downsizing and Student Success Collide. The Department Chair, 29(2), 21–22. https://doi.org/10.1002/dch.30222
+
 Ingraham, K. C., Davidson, S. J., & Yonge, O. (2018). Student-faculty relationships and its impact on academic outcomes. Nurse Education Today, 71, 17–21. https://doi.org/10.1016/j.nedt.2018.08.021
 
 
